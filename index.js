@@ -26,7 +26,7 @@
      li.appendChild(telefonoSpan);
 
      const editarBoton = document.createElement('button');
-     editarBoton.textContent = 'Editar';
+     editarBoton.textContent ='';
      editarBoton.addEventListener('click', () => editarContacto(i));
      li.appendChild(editarBoton);
 
@@ -72,7 +72,7 @@
    const telefono = telefonoInput.value.trim();
     // Validamos que se hayan ingresado los datos requeridos
     if (nombre === '' || telefono === '') {
-     alert('debe agregar la tarea');
+     alert('debe agregar la tarea y la fecha');
      return false;
    }
 

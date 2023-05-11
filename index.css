@@ -2,6 +2,7 @@ body{
     background-image: url("imagen/135748-la_astrofotografa-x750.jpg");
     background-attachment: fixed;
     background-repeat: round;
+    background-size: cover;
 }
 form {
     max-width: 500px;
