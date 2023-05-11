@@ -1,0 +1,87 @@
+body{
+    background-image: url("imagen/135748-la_astrofotografa-x750.jpg");
+    background-attachment: fixed;
+    background-repeat: round;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  form{
+    text-align: center;
+  }
+  
+  .my-form input[type="text"],
+  .my-form input[type="email"],
+  .my-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  form textarea {
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .my-form button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+  ul {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 44px;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
